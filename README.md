@@ -7,3 +7,4 @@
 运行界面: <br>
 
 ![](https://github.com/KuiperSirius/Minor_Music/blob/3462f9ca8dd0217c5c8f730e9bbf25e1175d7857/Example_Pictures/Screenshot_20180531-150435.png)
+![](https://github.com/KuiperSirius/Minor_Music/blob/3462f9ca8dd0217c5c8f730e9bbf25e1175d7857/Example_Pictures/Screenshot_20180531-150452.png)
