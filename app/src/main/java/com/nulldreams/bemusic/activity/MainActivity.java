@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity
             } else if (id == mHeaderCover.getId()) {
 
                 //点击头像，设置监听器实现URL的跳转...
-                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius");
+                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius/Minor_Music");
             }
         }
     };
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             final int id = item.getItemId();
             if (id == R.id.action_github) {
-                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius");
+                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius/Minor_Music");
             } else if (id == R.id.action_star_me) {
                 //Intents.viewMyAppOnStore(MainActivity.this);
                 Intents.openUrl(MainActivity.this, "https://www.duskwood.net/");

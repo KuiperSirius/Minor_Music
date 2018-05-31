@@ -33,8 +33,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 version = "1.0"
-def siteUrl = 'https://github.com/KuiperSirius'
-def gitUrl = 'https://github.com/boybeak/BeMusic.git'
+def siteUrl = 'https://github.com/KuiperSirius/Minor_Music'
+def gitUrl = 'https://github.com/KuiperSirius/Minor_Music.git'
 group = "com.github.KuiperSirius"
 install {
     repositories.mavenInstaller {
