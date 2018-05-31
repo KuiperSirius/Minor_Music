@@ -28,6 +28,6 @@ public class App extends Application {
         }
         //可使内存泄漏检测工具LeakCanary生效
        // LeakCanary.install(this);
-        //测试GitHub push是否生效
+
     }
 }
