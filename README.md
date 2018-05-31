@@ -4,6 +4,6 @@
 * [详细开发步骤请移步我的博客](https://www.duskwood.net)
 <br>
 
-运行界面:
+运行界面: <br>
 
-![](http://www.baidu.com/img/bdlogo.gif)
+![](https://github.com/KuiperSirius/Minor_Music/blob/3462f9ca8dd0217c5c8f730e9bbf25e1175d7857/Example_Pictures/Screenshot_20180531-150435.png)
