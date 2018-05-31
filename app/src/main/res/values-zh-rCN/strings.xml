@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_song_list">播放列表</string>
+    <string name="title_album_list">专辑</string>
+
+    <string name="title_menu_github">源码分享</string>
+    <string name="title_menu_star_me">个人博客</string>
+    <string name="title_menu_help">关于我们</string>
+    <string name="title_menu_sleep">"休眠时间"</string>
+    <string name="title_menu_wifi">"Wifi设置"</string>
+    <string name="title_menu_appconfig">"应用设置"</string>
+    <string name="title_menu_wifiInfo">只允许在Wifi环境下传输移动数据.</string>
+    <string name="title_menu_context_save_cover">保存封面</string>
+    <string name="title_menu_context_share_cover">分享封面</string>
+    <string name="title_menu_context_set_wallpaper">设为壁纸</string>
+    <string name="title_menu_context_set_ringtone">设为铃声</string>
+
+    <string name="title_dialog_send_to">分享到</string>
+
+    <string name="text_github_name">In my solitude of heart I feel the sigh of this widowed evening veiled with mist and rain.</string>
+
+    <plurals name="text_album_song_count">
+        <item quantity="other">%d 首歌曲</item>
+    </plurals>
+
+
+    <string name="text_album_cover_saved_at">图片保存于: %1$s</string>
+    <string name="text_album_cover_saved_failed">图片保存失败</string>
+    <!--<string name="text_help">help</string>-->
+    <string name="text_help">
+        音乐播放模块素材来自GitHub.\n
+        该应用程序（本地音乐播放器）作为学期末小组项目提交，开源代码尽可访问https://github.com/KuiperSirius \n
+        小组人员名单：郭一昊，刘泓莆，葛晨洋，李明阳，张捷 \n
+        欢迎访问：https://www.duskwood.net  \n
+        联系邮箱：gyh1298058589@outlook.com \n
+        项目信息：2018-05-28\n
+    </string>
+
+    <string name="translation_thumb">thumb</string>
+    <string name="translation_title">title</string>
+    <string name="translation_artist_album">artist_album</string>
+    <string name="text_empty_msg_songs">未发现设备中的歌曲</string>
+    <string name="text_empty_msg_albums">未发现设备中的专辑</string>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Minor Music</string>
+    <string name="title_song_list">播放列表</string>
+    <string name="title_album_list">相薄</string>
+
+    <string name="title_menu_github">源码分享</string>
+    <string name="title_menu_star_me">个人博客</string>
+    <string name="title_menu_help">关于我们</string>
+    <string name="title_menu_sleep">"休眠时间"</string>
+    <string name="title_menu_appconfig">"应用设置"</string>
+    <string name="title_menu_wifi">"Wifi设置"</string>
+    <string name="title_menu_wifiTitle">WLAN设置</string>
+    <string name="title_menu_wifiInfo">只允许在Wifi环境下传输移动数据.</string>
+
+    <string name="title_menu_context_save_cover">保存封面</string>
+    <string name="title_menu_context_share_cover">分享封面</string>
+    <string name="title_menu_context_set_wallpaper">设为壁纸</string>
+    <string name="title_menu_context_set_ringtone">设为铃声</string>
+
+
+
+    <string name="title_dialog_send_to">分享到</string>
+
+    <string name="text_github_name">Ursa Minor</string>
+    <string name="text_empty_msg_songs">该设备未发现歌曲哦</string>
+    <string name="text_empty_msg_albums">该设备未发现歌曲略缩图哦</string>
+    <plurals name="text_album_song_count">
+        <item quantity="zero">没有歌曲哦</item>
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+
+    <string name="text_album_cover_saved_at">Save at %1$s</string>
+    <string name="text_album_cover_saved_failed">保存失败</string>
+    <string name="text_permission">缺少读取外部存储权限</string>
+    <!--<string name="text_help">help</string>-->
+    <string name="text_help">
+        音乐播放模块素材来自GitHub.\n
+        该应用程序（本地音乐播放器）作为学期末小组项目提交，开源代码尽可访问https://github.com/KuiperSirius \n
+        小组人员名单：郭一昊，刘泓莆，葛晨洋，李明阳，张捷 \n
+        欢迎访问：https://www.duskwood.net  \n
+        联系邮箱：gyh1298058589@outlook.com \n
+        项目信息：2018-05-28\n
+    </string>
+
+    <string name="translation_thumb">thumb</string>
+    <string name="translation_title">标题</string>
+    <string name="translation_artist_album">艺术家相册</string>
+</resources>

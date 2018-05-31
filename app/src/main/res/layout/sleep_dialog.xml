@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aigestudio="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sleep_dialog_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="睡 眠 时 钟"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <com.lantouzi.wheelview.WheelView
+        android:id="@+id/wheelPicker"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_centerInParent="true"
+        app:lwvAdditionalCenterMark=" min"
+        app:lwvIntervalFactor="2"
+        app:lwvMarkRatio="0.4"
+        app:lwvMarkTextSize="12sp" />
+
+    <TextView
+        android:id="@+id/timer_set_text"
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/remove_timer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/button_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/set_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

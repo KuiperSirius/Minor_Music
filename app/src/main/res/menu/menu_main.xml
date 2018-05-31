@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_github"
+        android:title="@string/title_menu_github"
+        android:icon="@drawable/ic_github_circle"
+        />
+    <item
+        android:id="@+id/action_star_me"
+        android:title="@string/title_menu_star_me"
+        android:icon="@drawable/ic_star_circle"
+        />
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_help_circle"
+        android:title="@string/title_menu_help" />
+    <item
+        android:id="@+id/action_wifi"
+        android:icon="@drawable/ic_heart_filled"
+        android:title="@string/title_menu_wifi" />
+
+    <item
+        android:id="@+id/action_sleep"
+        android:icon="@drawable/settings"
+        android:title="@string/title_menu_sleep" />
+
+</menu>
