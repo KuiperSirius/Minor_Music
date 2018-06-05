@@ -11,7 +11,6 @@
     <string name="title_menu_wifi">"Wifi设置"</string>
     <string name="title_menu_wifiTitle">WLAN设置</string>
     <string name="title_menu_wifiInfo">只允许在Wifi环境下传输移动数据.</string>
-
     <string name="title_menu_context_save_cover">保存封面</string>
     <string name="title_menu_context_share_cover">分享封面</string>
     <string name="title_menu_context_set_wallpaper">设为壁纸</string>

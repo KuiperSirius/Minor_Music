@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@color/primary</color>
-    <color name="colorPrimaryDark">@color/primary_dark</color>
-    <color name="colorAccent">@color/accent</color>
+ <color name="colorPrimary">@color/primary</color>
+ <color name="colorPrimaryDark">@color/primary_dark</color>
+ <color name="colorAccent">@color/accent</color>
 
-    <color name="colorIcon">@android:color/white</color>
+ <color name="colorIcon">@android:color/white</color>
 
-   <!-- <color name="primary">#3b3b46</color>-->
+ <!-- <color name="primary">#3b3b46</color>-->
 
  <color name="primary">#000000</color>
-    <color name="primary_dark">#2b2b36</color>
-    <color name="accent">@android:color/holo_orange_light</color>
-    <!--<color name="colorPrimary">#3F51B5</color>-->
-    <!--<color name="colorPrimaryDark">#303F9F</color>-->
-    <!--<color name="colorAccent">#FF4081</color>-->
-    <!--<color name="colorPrimary">#000000</color>
-   <color name="colorPrimaryDark">#000000</color>
-   <color name="colorAccent">#FFFFFF</color>-->
-   <color name="colorDark">#111111</color>
-   <color name="colorListItem">#111111</color>
+ <color name="primary_dark">#2b2b36</color>
+ <color name="accent">@android:color/holo_orange_light</color>
+ <!--<color name="colorPrimary">#3F51B5</color>-->
+ <!--<color name="colorPrimaryDark">#303F9F</color>-->
+ <!--<color name="colorAccent">#FF4081</color>-->
+ <!--<color name="colorPrimary">#000000</color>
+<color name="colorPrimaryDark">#000000</color>
+<color name="colorAccent">#FFFFFF</color>-->
+ <color name="colorDark">#111111</color>
+ <color name="colorListItem">#111111</color>
 
 
 

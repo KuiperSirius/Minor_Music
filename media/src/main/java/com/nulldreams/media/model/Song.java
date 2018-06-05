@@ -12,6 +12,7 @@ public class Song {
             album, albumKey, displayName, mimeType, path;
     private int id, albumId, artistId, duration, size, year, track;
     private boolean isRingtone, isPodcast, isAlarm, isMusic, isNotification;
+//定义属性，歌曲标题，作家，唱片集，播放名，最小值，播放名，路径，是否分享，是否设为提示音，是否保存封面等..
 
     //private File mCoverFile;
 

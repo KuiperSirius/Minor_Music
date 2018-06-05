@@ -15,18 +15,36 @@ import java.util.List;
 
 /**
  * Created by Yihao Guo on 2018/05/31.
+ * MediaStore中定义了一系列的数据表格，通过ContentResolver提供的查询接口，我们可以得到各种需要的信息。
  */
 public class MediaUtils {
 
     private static final String TAG = MediaUtils.class.getSimpleName();
 
     public static final DecimalFormat FORMAT = new DecimalFormat("00");
+    /*歌曲信息属性说明如下
+     * //获取歌曲在系统中的id MediaStore.Audio.Media._ID
+
+     //获取歌曲的歌名 MediaStore.Audio.Media.TITLE;
+
+     //获取歌曲所在专辑的id MediaStore.Audio.Media.ALBUM_ID;
+
+     //获取专辑的歌手名 MediaStore.Audio.Media.ARTIST
+
+     //获取歌曲的时长 MediaStore.Audio.Media.DURATION
+
+     //获取歌曲的大小 MediaStore.Audio.Media.SIZE
+
+     //获取专辑名 MediaStore.Audio.Media.ALBUM
+
+     //获取歌曲路径，如xx/xx/xx.mp3 MediaStore.Audio.Media.DATA
+     */
 
     public static final String[] AUDIO_KEYS = new String[]{
-            MediaStore.Audio.Media._ID,
-            MediaStore.Audio.Media.TITLE,
-            MediaStore.Audio.Media.TITLE_KEY,
-            MediaStore.Audio.Media.ARTIST,
+            MediaStore.Audio.Media._ID, //歌曲ID
+            MediaStore.Audio.Media.TITLE, //歌曲的名称
+            MediaStore.Audio.Media.TITLE_KEY, //歌曲的专辑名
+            MediaStore.Audio.Media.ARTIST, //歌曲的歌手名
             MediaStore.Audio.Media.ARTIST_ID,
             MediaStore.Audio.Media.ARTIST_KEY,
             MediaStore.Audio.Media.COMPOSER,
@@ -34,8 +52,8 @@ public class MediaUtils {
             MediaStore.Audio.Media.ALBUM_ID,
             MediaStore.Audio.Media.ALBUM_KEY,
             MediaStore.Audio.Media.DISPLAY_NAME,
-            MediaStore.Audio.Media.DURATION,
-            MediaStore.Audio.Media.SIZE,
+            MediaStore.Audio.Media.DURATION, //歌曲的总播放时长
+            MediaStore.Audio.Media.SIZE, //歌曲文件的大小
             MediaStore.Audio.Media.YEAR,
             MediaStore.Audio.Media.TRACK,
             MediaStore.Audio.Media.IS_RINGTONE,
@@ -46,7 +64,17 @@ public class MediaUtils {
             MediaStore.Audio.Media.MIME_TYPE,
             MediaStore.Audio.Media.DATA,
     };
-
+    /*
+ 专辑信息
+ //获取专辑id
+ MediaStore.Audio.Albums._ID
+ //获取专辑名
+ MediaStore.Audio.Albums.ALBUM
+ //获取专辑歌手
+ MediaStore.Audio.Albums.ARTIST
+ //获取专辑歌曲数
+ MediaStore.Audio.Albums.NUMBER_OF_SONGS
+      */
     public static final String[] ALBUM_COLUMNS = new String[] {
             MediaStore.Audio.Albums._ID,
             MediaStore.Audio.Albums.ALBUM,
@@ -57,7 +85,15 @@ public class MediaUtils {
             MediaStore.Audio.Albums.FIRST_YEAR,
             MediaStore.Audio.Albums.LAST_YEAR,
     };
-
+/*
+歌手信息
+//歌手id
+MediaStore.Audio.Artists._ID
+//歌手名
+MediaStore.Audio.Artists.ARTIST
+//歌手歌曲数
+MediaStore.Audio.Artists.NUMBER_OF_TRACKS
+ */
     public static final String[] ARTIST_COLUMNS = new String[] {
             MediaStore.Audio.Artists._ID,
             MediaStore.Audio.Artists.ARTIST,
