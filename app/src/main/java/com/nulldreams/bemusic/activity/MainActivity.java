@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity
                 Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius/Minor_Music");
             } else if (id == R.id.action_star_me) {
                 //Intents.viewMyAppOnStore(MainActivity.this);
-                Intents.openUrl(MainActivity.this, "https://www.duskwood.net/");
+                Intents.openUrl(MainActivity.this, "https://www.duskwood.net/android_develop_music_player/");
             } else if (id == R.id.action_help) {
                 final String message = getString(R.string.text_help);
                 TextView messageTv = new TextView(MainActivity.this);
