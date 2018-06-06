@@ -26,8 +26,6 @@ import java.util.List;
 
 public class SleepActivity extends AppCompatActivity implements View.OnClickListener {
 
-
-
     Button exit;
     Button apply;
     Intent intent;

@@ -144,7 +144,7 @@ public class PlayService extends Service implements MediaPlayer.OnInfoListener,
     }
 
     private void doStartPlayer () {
-        mPlayer.start();
+        mPlayer.start();  //开始播放
         setPlayerState(STATE_STARTED);
     }
 
@@ -156,21 +156,21 @@ public class PlayService extends Service implements MediaPlayer.OnInfoListener,
 
     public void pausePlayer () {
         if (isStarted()) {
-            mPlayer.pause();
+            mPlayer.pause(); //暂停播放
             setPlayerState(STATE_PAUSED);
         }
     }
 
     public void stopPlayer () {
         if (isStarted() || isPaused()) {
-            mPlayer.stop();
+            mPlayer.stop();  //停止播放
             setPlayerState(STATE_STOPPED);
         }
     }
 
     public void releasePlayer () {
         if (mPlayer != null) {
-            mPlayer.release();
+            mPlayer.release();  //释放
             mPlayer = null;
             setPlayerState(STATE_RELEASED);
         }

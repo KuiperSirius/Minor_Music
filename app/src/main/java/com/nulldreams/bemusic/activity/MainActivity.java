@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity
     DownloadManager.Request request;
     public static boolean DEF_STREAM_ONLY_ON_WIFI;
     private boolean streamOnlyOnWifiEnabled = DEF_STREAM_ONLY_ON_WIFI;
-  //  DEF_STREAM_ONLY_ON_WIFI
+    //  DEF_STREAM_ONLY_ON_WIFI
 
     Handler sleepHandler;
 
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity
             } else if (id == mHeaderCover.getId()) {
 
                 //点击头像，设置监听器实现URL的跳转...
-                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius/Minor_Music");
+                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius");
             }
         }
     };
@@ -159,10 +159,10 @@ public class MainActivity extends AppCompatActivity
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             final int id = item.getItemId();
             if (id == R.id.action_github) {
-                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius/Minor_Music");
+                Intents.openUrl(MainActivity.this, "https://github.com/KuiperSirius");
             } else if (id == R.id.action_star_me) {
                 //Intents.viewMyAppOnStore(MainActivity.this);
-                Intents.openUrl(MainActivity.this, "https://www.duskwood.net/android_develop_music_player/");
+                Intents.openUrl(MainActivity.this, "https://www.duskwood.net/");
             } else if (id == R.id.action_help) {
                 final String message = getString(R.string.text_help);
                 TextView messageTv = new TextView(MainActivity.this);
@@ -181,8 +181,8 @@ public class MainActivity extends AppCompatActivity
             郭一昊 2018-05-30
                     */
             else if (id == R.id.action_wifi){
-            //    Intent intent=new Intent(MainActivity.this, Configuration.class);
-             //startActivityForResult(intent,0x11);
+                //    Intent intent=new Intent(MainActivity.this, Configuration.class);
+                //startActivityForResult(intent,0x11);
                 final String message = getString(R.string.title_menu_wifiInfo);
                 TextView messageTv = new TextView(MainActivity.this);
                 final int padding = (int)(getResources().getDisplayMetrics().density * 24);
@@ -208,10 +208,10 @@ public class MainActivity extends AppCompatActivity
 表示下载允许的网络类型，默认在任何网络下都允许下载。有NETWORK_MOBILE、NETWORK_WIFI、NETWORK_BLUETOOTH三种及其组合可供选择。如果只允许wifi下载，而当前网络为3g，则下载会等待。
 request.setAllowedOverRoaming(boolean allow)移动网络情况下是否允许漫游。
                                  */
-                              //  DownloadManager.Request request=null;// new DownloadManager.Request(Uri.parse(apkUrl));
+                                //  DownloadManager.Request request=null;// new DownloadManager.Request(Uri.parse(apkUrl));
                                 String APK_URL="该字段为您自定义的下载链接";
-                               // request=new DownloadManager.Request(Uri.parse(APK_URL));
-                              //  request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI);
+                                // request=new DownloadManager.Request(Uri.parse(APK_URL));
+                                //  request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI);
                                 setStreamOnlyOnWifiEnabled(true);
                                 Toast.makeText(MainActivity.this,"您的设置已经生效",Toast.LENGTH_SHORT).show();
                             }
@@ -241,7 +241,7 @@ request.setAllowedOverRoaming(boolean allow)移动网络情况下是否允许漫
     public void showSleepDialog() {
         final Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-       // dialog.setContentView(R.layout.sleep_timer_dialog);
+        // dialog.setContentView(R.layout.sleep_timer_dialog);
 
         final WheelView wheelPicker = (WheelView) dialog.findViewById(R.id.wheelPicker);
   /*      wheelPicker.setItems(minuteList);
@@ -354,7 +354,7 @@ request.setAllowedOverRoaming(boolean allow)移动网络情况下是否允许漫
 
 
 
-//    private PlayDetailFragment mDetailFragment = PlayDetailFragment.newInstance();
+    //    private PlayDetailFragment mDetailFragment = PlayDetailFragment.newInstance();
     private void showPlayDetail () {
         Intent it = new Intent(this, PlayDetailActivity.class);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
